@@ -3,7 +3,7 @@
 
 var searchterms = ["subject to successful completion of the training course", "costs","fees"] //curated search terms
 
-var searchResult = document.querySelectorAll('[id^="jobSection"]'); //the class starts jobsection######
+var searchResult = document.querySelectorAll('[id^="jobSection"]'); //the class name starts "jobsection"
 
 for (var i = 0; i < searchResult.length; i++) { console.log( searchResult[i].textContent)
 
@@ -11,7 +11,7 @@ for (var j = 0; j < searchterms.length; j++){
 				var pos = searchResult[i].textContent.search(searchterms[j])
 					if (pos > -1){
 				//searchResult[i].style.backgroundColor = "red";  //future version option will allow to warn/suggest the job adverts appear suspicious
-				searchResult[i].remove(); //removes the html element found to contain the search term
+				searchResult[i].remove(); //removes the element found to contain the search term
 					}
 
 											}
