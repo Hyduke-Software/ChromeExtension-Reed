@@ -1,1 +1,2 @@
-An extension for Google Chrome browser to block training course adverts shown on Reed.co.uk.
+I've found training course advertisements on Reed.co.uk to be too frequent, 
+this Google Chrome extension removes them using JavaScript.
